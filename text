@@ -1,0 +1,23 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel</title>
+    <script src="./index.js" type="module"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="input-container">
+            <input type="text" value="iron man" class="input-text">
+            <button class="submit-btn">Submit</button>
+            <div class="list-container"></div>
+        </div>
+        <div class="display-container"></div>
+    </div>
+</body>
+</html>
+ -->
+
+ const url = `https://gateway.marvel.com:443/v1/public/characters?ts=1&apikey=17a754a064dc39966ff50d14a44f236a&hash=b1fa40ddd0293578a946b056d88cbd81&name=${input.value}`
